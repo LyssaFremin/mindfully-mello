@@ -4,80 +4,75 @@
 <head>
   <meta charset="utf-8">
   <title>Mindfully MelLo</title>
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+
   <link rel="stylesheet" href="css/styles.css">
   <link rel="icon" href="favicon.ico">
-
+  <link href="https://fonts.googleapis.com/css2?family=Dosis:wght@200;300;400;500;600;700;800&display=swap" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;1,100;1,200;1,300;1,400;1,500;1,600&display=swap" rel="stylesheet">
-  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
-  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
-</head>
-<script src="scripts/jquery.js"></script>
-<script src="scripts/myscripts.js"></script>
 
-<!-- Font Awesome -->
-<script src="https://kit.fontawesome.com/ab7336ae43.js" crossorigin="anonymous"></script>
+  <script src="scripts/jquery.js"></script>
+  <script src="scripts/myscripts.js"></script>
+
+  <!-- Font Awesome -->
+  <script src="https://kit.fontawesome.com/ab7336ae43.js" crossorigin="anonymous"></script>
 </head>
 
 <body>
 
   <header>
-    <nav class="navbar navbar-expand-lg">
-      <div class="site-nav collapse navbar-collapse">
-        <ul class="navbar-nav ml-auto">
-          <li class="nav-item">
-            <a class="nav-link" href="index.html">Home</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="about.html">About</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="schedule.html">Schedule</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="videos.html">Archive</a>
-          </li>
-        </ul>
+
+    <nav class="navbar">
+      <div class="site-nav" id="site_nav">
+        <a href="#">Home</a>
+        <div class="vertical-divide">
+          |
+        </div>
+        <a href="#">About</a>
+        <div class="vertical-divide">
+          |
+        </div>
+        <a href="#">Schedule</a>
+        <div class="vertical-divide">
+          |
+        </div>
+        <a href="#">Videos</a>
       </div>
-      <div class="site-nav collapse navbar-collapse">
+      <div class="social-nav" id="social_nav">
         <a href="https://www.facebook.com/groups/MindfullyMelLoOnline/"><i class="fab fa-facebook-square"></i></a>
         <a href="#"><i class="fab fa-instagram"></i></a>
         <a href="#"><i class="fab fa-twitter"></i></a>
         <a href="mailto: mindfully.mello@gmail.com"><i class="fas fa-envelope"></i></a>
       </div>
     </nav>
-    <div class="banner">
-      <img src="#" alt="logo" />
+    <div class="flex-box-banner">
+
+      <div class="top-banner">
+        <span>Vinyasa</span><span>Meditation</span><span>Gentle Yoga</span>
+      </div>
+      <div class="banner">
+        <!-- <img src="images/MM_logo.png" alt="logo" /> -->
+      </div>
 
     </div>
   </header>
   <div class="top-section">
 
-    <div class="decor">
-      <img src="images/decor.png" alt="lotus-decor" />
-    </div>
-    <div class="page-info">
-      <p>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute
-        irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-      </p>
-    </div>
-    <div class="decor">
-      <img src="images/decor.png" alt="lotus-decor" />
-    </div>
-  </div>
+    <img class="decor-left" src="images/decor.png" alt="lotus-decor" id="decor_left" />
+    <p id="page_info">
+      I created this group with the intention of holding space for a loving cOMmUNITY to grow, find support & empowerment through the practice of Yoga, Meditation & Wellness online. My hope is to give you more knowledge & confidence to allow all we do on the mat to inspire you to live more a peacefully empowered life off the mat. I can't wait to grow & flow with you all!
+    </p>
+    <img class="decor-right" src="images/decor.png" alt="lotus-decor" id="decor_right"/>
   </div>
   <hr />
   <div class="middle-section">
     <div class="photo-link">
-      <img src="#" alt="classes-link" />
+      <img src="images/classes.png" alt="classes-link" />
     </div>
     <div class="photo-link">
-      <img src="#" alt="classes-link" />
+      <img src="images/events.png" alt="classes-link" />
     </div>
     <div class="photo-link">
-      <img src="#" alt="classes-link" />
+      <img src="images/products.png" alt="classes-link" />
     </div>
   </div>
   <hr />
